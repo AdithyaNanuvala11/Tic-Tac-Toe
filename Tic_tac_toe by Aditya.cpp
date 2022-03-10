@@ -107,7 +107,7 @@ bool f3()
     {
         for(int j=0;j<3;j++)
         {
-            if(space[i][j]!='x'&&space[i][j]!='0')
+            if(space[i][j]!='X'&&space[i][j]!='O')
             {
                 return false;
             }
@@ -121,7 +121,6 @@ int main()
     cout<<"\t\t\t-----------------------------------------\t\t\t"<<endl;
     cout<<"\t\t\t   TIC TAC TOE  (By Adithya Nanuvala)"<<endl;
     cout<<"\t\t\t-----------------------------------------\t\t\t"<<endl;
-    int space[3][3]={{1,2,3},{4,5,6},{7,8,9}};
     cout<<"Enter first player's name: ";
     cin>>n1;
     cout<<"Enter second player's name: ";
